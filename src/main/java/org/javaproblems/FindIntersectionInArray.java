@@ -1,7 +1,9 @@
 package org.javaproblems;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
+// ArrayList use size, get
 public class FindIntersectionInArray {
     public static void main(String[] args) {
         ArrayList<Integer> list1 = new ArrayList<>();
@@ -15,22 +17,20 @@ public class FindIntersectionInArray {
         list2.add(9);
         list2.add(1);
 
-        ArrayList<Integer> common = commonNumbers(list1, list2);
+        ArrayList<Integer> results=  common(list1, list2);
+        System.out.println(results);
 
-        System.out.println("Common elements: " + common);
     }
 
-    public static ArrayList<Integer> commonNumbers(ArrayList<Integer> list1, ArrayList<Integer> list2) {
-        ArrayList<Integer> commonset = new ArrayList<>();
-
-        for (int i = 0; i < list1.size(); i++) {
-            for (int j = 0; j < list2.size(); j++) {
-                if (list1.get(i).equals(list2.get(j))) {
-                    commonset.add(list1.get(i));
+    public static ArrayList<Integer> common(ArrayList<Integer> list1, ArrayList<Integer> list2){
+        ArrayList<Integer> commonElements = new ArrayList<>();
+        for(int i=0; i<list1.size(); i++){
+            for (int j = 0; j<list2.size(); j++){
+                if(list1.get(i).equals(list2.get(j))){
+                    commonElements.add(list1.get(i));
                 }
             }
         }
-
-        return commonset;
+        return commonElements;
     }
 }
