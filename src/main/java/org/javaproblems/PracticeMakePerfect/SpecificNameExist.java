@@ -1,4 +1,4 @@
-package org.javaproblems;
+package org.javaproblems.PracticeMakePerfect;
 
 import java.util.ArrayList;
 

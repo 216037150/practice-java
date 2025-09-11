@@ -1,4 +1,4 @@
-package org.javaproblems;
+package org.javaproblems.PracticeMakePerfect;
 
 public class PrimeNumber {
     public static void main(String[] args) {
@@ -14,5 +14,5 @@ public class PrimeNumber {
             }
         }
         return true;
-    }
+    }    
 }

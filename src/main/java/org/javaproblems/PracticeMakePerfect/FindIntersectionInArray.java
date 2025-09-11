@@ -1,6 +1,5 @@
-package org.javaproblems;
+package org.javaproblems.PracticeMakePerfect;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 // ArrayList use size, get
@@ -24,10 +23,11 @@ public class FindIntersectionInArray {
 
     public static ArrayList<Integer> common(ArrayList<Integer> list1, ArrayList<Integer> list2){
         ArrayList<Integer> commonElements = new ArrayList<>();
-        for(int i=0; i<list1.size(); i++){
-            for (int j = 0; j<list2.size(); j++){
-                if(list1.get(i).equals(list2.get(j))){
-                    commonElements.add(list1.get(i));
+        //Enhance for loop
+        for (Integer i : list1) {
+            for (Integer j : list2) {
+                if (i.equals(j)) {
+                    commonElements.add(i);
                 }
             }
         }

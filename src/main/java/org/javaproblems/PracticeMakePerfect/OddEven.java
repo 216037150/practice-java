@@ -1,6 +1,4 @@
-package org.javaproblems;
-
-import java.lang.reflect.Array;
+package org.javaproblems.PracticeMakePerfect;
 
 public class OddEven {
     public static void main(String[] args) {
