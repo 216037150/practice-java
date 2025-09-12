@@ -1,2 +1,23 @@
 Java was made in 1995 by Sun MicroSystem, and lead by the team of James Gosling
 It is updated every six months
+Java is platform independent, because of JVM
+JVM is platform dependent
+JVM only understand bytecode
+Java Code(Human language) --> compiler(Javac)-->Bytecode-->JVM
+At least one class must have one main as an entry point.
+it must have this method: public static void main (String[] args) : this is the signature
+
+
+Java is Object Oriented, meaning we must have class and object
+As a developers, we install JDK, and JDK contain JRE, and JRE contains JVM
+Variable: Imagine variable is a box, you want to store some thing, then what type of this something
+
+
+Data Types
+
+Baby shark Can Interprete Long Fish Dream
+
+Primitive data types:   1. Integer: int, byte, short, long
+                        2. Float: float, double
+                        3 Character: 'c'
+                        4. Boolean: True or false
