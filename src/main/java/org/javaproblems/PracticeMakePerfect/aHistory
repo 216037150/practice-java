@@ -15,9 +15,50 @@ Variable: Imagine variable is a box, you want to store some thing, then what typ
 
 Data Types
 
-Baby shark Can Interprete Long Fish Dream
+Baby Shark Can Interpret Long Fish Dream Better
+
+Baby → byte
+
+shark → short
+
+Can → char
+
+Interpret → int
+
+Long → long
+
+Fish → float
+
+Dream → double
+
+Better -> Boolean
 
 Primitive data types:   1. Integer: int, byte, short, long
                         2. Float: float, double
                         3 Character: 'c'
                         4. Boolean: True or false
+
+int num = 7;
+int result = ++num // Increment and then fetch the value       (pre - increment)
+int result = num++ // fetch the value and the increment        (post - increment)
+
+
+Relational operators: <, >, >=, <=, True or false, ==, !=
+Logical Operators: AND (&&), OR (||), NOT (!)
+Truth Table
+Ternary Oparator:   result = n%2 == 0 ? "Even": "Odd"      ======> System.out.println(result);
+
+Switch statement: Switch( condition){ Case 1:
+                            sout();
+                            break;
+                            Case 2
+                            ...
+                            default:
+                            sout()
+                            }
+}
+
+Loops:  for loop
+        while loop  : execute as long the condition is true
+        do while loop
+
