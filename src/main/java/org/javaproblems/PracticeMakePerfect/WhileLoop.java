@@ -1,6 +1,6 @@
 package org.javaproblems.PracticeMakePerfect;
 
-public class WhlieLoop {
+public class WhileLoop {
     public static void main(String[] args) {
         int n = 1;
         while(n<=4){
