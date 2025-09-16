@@ -6,6 +6,7 @@ JVM only understand bytecode
 Java Code(Human language) --> compiler(Javac)-->Bytecode-->JVM
 At least one class must have one main as an entry point.
 it must have this method: public static void main (String[] args) : this is the signature
+Java is static type: meaning it concerned about the data types
 
 
 Java is Object Oriented, meaning we must have class and object
@@ -15,7 +16,7 @@ Variable: Imagine variable is a box, you want to store some thing, then what typ
 
 Data Types
 
-Baby Shark Can Interpret Long Fish Dream Better (Use this to master  Type Casting)
+Baby Shark Can Interpret Long Fish Dream Better (Use this to master Type Casting)
 
 Baby → byte
 
@@ -61,4 +62,26 @@ Switch statement: Switch( condition){ Case 1:
 Loops:  for loop        : Used when the number of iterations is known. It runs a specific number of times.
         while loop      : Runs as long as the given condition is true. The condition is checked before each iteration.
         do while loop   : Similar to the while loop, but the condition is checked after the loop body executes.
+
+Object Oriented Programming
+Who create object in Java: JVM
+Object : Properties and behaviour
+
+
+Data Areas
+Memories : We have Stack and Heap
+Every method has got own its Stack.
+Main Method ==
+Stack has got key and value
+If we dont have the add method on main, then it will create a new Stack
+Local Variables are part of the stack
+Instance Variable are part of the Heap Memory
+obj + are save on main memory
+The is a link between Stack and Heap
+
+Array
+use the [] to declare array
+It store values of the same data type
+It have the fixed size     ====> int num[] = new int[5] ===> By default all the value s in array are zero
+It can be accessed using indexes: index start at zero
 
