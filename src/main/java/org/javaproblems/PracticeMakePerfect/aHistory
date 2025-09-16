@@ -85,7 +85,7 @@ It store values of the same data type
 It have the fixed size     ====> int num[] = new int[5] ===> By default all the values in int array are zero
 It can be accessed using indexes: index start at zero
 They are fast
-we   can use nums.lenght as a variable
+we   can use nums.length as a variable
 
 Exception are run time errors
 
@@ -96,3 +96,6 @@ Strings are immutable by defaults
 
 String buffer =======>
 String builder ====>
+
+Static Key words:
+Static variable is shared by all the object
