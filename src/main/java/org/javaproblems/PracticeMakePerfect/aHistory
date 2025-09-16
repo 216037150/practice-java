@@ -79,9 +79,20 @@ Instance Variable are part of the Heap Memory
 obj + are save on main memory
 The is a link between Stack and Heap
 
-Array
+Arrays
 use the [] to declare array
 It store values of the same data type
-It have the fixed size     ====> int num[] = new int[5] ===> By default all the value s in array are zero
+It have the fixed size     ====> int num[] = new int[5] ===> By default all the values in int array are zero
 It can be accessed using indexes: index start at zero
+They are fast
+we   can use nums.lenght as a variable
 
+Exception are run time errors
+
+String
++ it used to concatinate strings
+length
+Strings are immutable by defaults
+
+String buffer =======>
+String builder ====>

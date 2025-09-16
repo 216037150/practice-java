@@ -3,7 +3,6 @@ package org.javaproblems.PracticeMakePerfect;
 public class PrimeNumber {
     public static void main(String[] args) {
      boolean result = isPrime(3);
-
      System.out.println(result);
     }
 

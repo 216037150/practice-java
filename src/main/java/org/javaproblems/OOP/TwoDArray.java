@@ -18,7 +18,7 @@ public class TwoDArray {
 //            System.out.println();
 //        }
 
-        for(int n[] :nums){
+        for(int n[] : nums){
             for(int m : n){
                 System.out.print(m+  " ");
             }
