@@ -107,3 +107,4 @@ Variable/Method → camelCase (e.g., carSpeed, getName(), add())
 Constant → UPPER_CASE (e.g., PIE, MAX_VALUE)
 
 Inheritance ====> Use the method from the super class
+Do we support multiple inheritance in Java? ==============>>> No
