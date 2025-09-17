@@ -90,7 +90,7 @@ we   can use nums.length as a variable
 Exception are run time errors
 
 String
-+ it used to concatinate strings
++ it used to concatenate strings
 length
 Strings are immutable by defaults
 
@@ -99,3 +99,11 @@ String builder ====>
 
 Static Key words:
 Static variable is shared by all the object
+
+
+Naming Conversion
+Class/Interface → PascalCase (e.g., CarModel)
+Variable/Method → camelCase (e.g., carSpeed, getName(), add())
+Constant → UPPER_CASE (e.g., PIE, MAX_VALUE)
+
+Inheritance ====> Use the method from the super class

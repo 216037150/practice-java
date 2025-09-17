@@ -24,6 +24,7 @@ public class StaticKetWord {
         //Static key word
         //The name will be changed in both object even if we changed one object because of static key
         //Static variable is shared by all the object
+        //  Static field can be access using the class
         obj2.name = "Normal Phone";
 
         obj1.show();
